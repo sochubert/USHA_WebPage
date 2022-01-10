@@ -16,7 +16,7 @@ body {
   color: white;
   padding-top: 250px;
   padding-bottom: 450px;
-  padding-left: 400px;
+  padding-left: 250px;
 }
 
 .home_text_box {
@@ -204,46 +204,16 @@ p {
 
 .social_icons{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .icons {
-  width: 70px;
-}
-
-.speech {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 200px;
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
-.speech-bubble {
-	position: relative;
-  line-height: 45px;
-	background: #ffffff;
-	border-radius: .4em;
-  color: black;
-  width: 170px;
-  height: 100px;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #ffffff;
-	border-bottom: 0;
-	margin-left: -20px;
-	margin-bottom: -20px;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .on_media {
@@ -414,12 +384,23 @@ p {
   }
 
   .icons {
-    width: 60px;
+    display: none;
   }
 
   .on_media {
     display: block;
     margin-bottom: 100px;
+  }
+
+  .responsive {
+    font-size: 40px;
+    padding-top: 60px;
+    display: block;
+  }
+
+  .icon_logo {
+    width: 90px;
+    padding: 20px;
   }
 
 }
