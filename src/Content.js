@@ -1,6 +1,11 @@
 const Content = () => {
     return (
         <div id="Section">
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://ushaweb.herokuapp.com/" />
+            <meta property="og:title" content="으샤" />
+            <meta property="og:description" content="좋아하는 것을 잘하는 것으로" />
+            <meta property="og:image" content={process.env.PUBLIC_URL + `/assets/logo.png`} />
             <div className="first">
                 <div className="first_left">
                     <img src={process.env.PUBLIC_URL + `/assets/mimo-1.png`} className="mimo" />
