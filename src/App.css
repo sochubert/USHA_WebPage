@@ -381,9 +381,10 @@ p {
   }
 
   .category_btn {
-    width: 80px;
+    width: 120px;
     height: 50px;
     font-size: 15px;
+    margin: 30px;
   }
 
   .sixth {
