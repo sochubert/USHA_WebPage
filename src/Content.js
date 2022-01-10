@@ -75,8 +75,16 @@ const Content = () => {
                 <p className="sixth_letter">좋아하는 것을 <b>잘하는 것</b>으로</p>
                 <p className="sixth_letter">작은 성취가 모여 <b>큰 성공</b>으로</p>
                 <h1><span className="sixth_big">으샤!</span> 커뮤니티에서 시작해보세요.</h1>
+                <div className="speech">
+                    <div className="speech-bubble">더 많은 코치/관심사를<br />만나고 싶다면</div>
+                    <div className="speech-bubble">커뮤니티 후기를<br />찾아보고 싶다면</div>
+                    <div className="speech-bubble">코치님의 성공스토리를<br />엿보고 싶다면</div>
+                </div>
+                <div className="on_media"><p>더 많은 으샤의 소식을 듣고 싶다면!</p></div>
                 <div className="social_icons">
-                    
+                    <img src={process.env.PUBLIC_URL + `/assets/appstore.png`} className="icons" />
+                    <img src={process.env.PUBLIC_URL + `/assets/youtube.png`} className="icons" />
+                    <img src={process.env.PUBLIC_URL + `/assets/instagram.png`} className="icons" />
                 </div>
             </div>
         </div>
