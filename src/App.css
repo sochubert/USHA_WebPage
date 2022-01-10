@@ -201,3 +201,147 @@ p {
   font-size: 50px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+
+  .big_letter {
+    font-size:25px;
+  }
+
+  #home {
+    margin: 0px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  #home h1:first-letter {
+    font-size: 50px;
+  }
+  #home h1 {
+    font-size: 30px;
+  }
+  
+  .first {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .first p {
+    text-align: center;
+  }
+
+  .first_left {
+    margin-right: 0px;
+    margin-bottom: 150px;
+  }
+  
+  .first_right {
+    margin-left: 0px;
+  }
+
+  .mimo {
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+  }
+
+  .first_right .mimo {
+    float: none;
+  }
+
+  .second {
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .second_comment {
+    padding-bottom: 150px;
+  }
+
+  .second_left {
+    margin-right: 30px;
+  }
+
+  .second_right {
+    margin-left: 30px;
+  }
+
+  .second_img {
+    height: 100px;
+    margin: 50px;
+  }
+
+  .third {
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+
+  .forth {
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .forth p {
+    font-size: 16px;
+  }
+
+  .thin_letter {
+    font-size: 14px;
+  }
+
+  .forth_people {
+    margin: 0px;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .person_img {
+    width: 100px;
+  }
+
+  .fifth {
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .category_btn {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .sixth {
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .sixth_letter {
+    font-size: 30px;
+  }
+
+  .sixth h1 {
+    font-size: 25px;
+  }
+
+  .sixth_big {
+    font-size: 35px;
+  }
+
+}
