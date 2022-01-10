@@ -51,11 +51,11 @@ body {
 
 
 .first_left {
-  margin-right: 200px;
+  margin-right: 100px;
 }
 
 .first_right {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 p {
@@ -182,7 +182,7 @@ p {
   color: white;
   padding: 200px;
   padding-top: 200px;
-  padding-bottom: 250px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -192,7 +192,7 @@ p {
 }
 
 .sixth h1 {
-  padding-top: 100px;
+  padding-bottom: 50px;
   font-size: 40px;
   font-weight: 200;
 }
@@ -218,6 +218,32 @@ p {
 
 .on_media {
   display: none;
+}
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 150px;
+  background-color: #5856D7;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.about h4 {
+  font-size: 12px;
+}
+
+.about a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.spacing {
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -332,12 +358,20 @@ p {
   .forth_people {
     margin: 0px;
     padding-top: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .person h4 {
+    font-size: 12px;
+  }
+
+  .person h3 {
+    font-size: 16px;
   }
 
   .person_img {
-    width: 100px;
+    width: 80px;
   }
 
   .fifth {
@@ -360,7 +394,7 @@ p {
   .sixth {
     padding: 0px;
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
 
   .sixth_letter {
@@ -369,6 +403,7 @@ p {
 
   .sixth h1 {
     font-size: 20px;
+    padding: 0px;
   }
 
   .sixth_big {
@@ -389,7 +424,8 @@ p {
 
   .on_media {
     display: block;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 0px;
   }
 
   .responsive {
@@ -403,4 +439,19 @@ p {
     padding: 20px;
   }
 
+  .about {
+    padding-top: 60px;
+  }
+
+  .about h4 {
+    font-size: 10px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }

@@ -72,6 +72,8 @@ const Content = () => {
                 </div>
             </div>
             <div className="sixth">
+                <h1>좋아하는 것을 <b>잘하는 것</b>으로</h1>
+                <h1>작은 성취가 모여 <b>큰 성공</b>으로</h1>
                 <div className="on_media"><p>더 많은 으샤의 소식을 듣고 싶다면!</p>
                     <img src={process.env.PUBLIC_URL + `/assets/appstore_logo.png`} className="icon_logo" />
                     <img src={process.env.PUBLIC_URL + `/assets/youtube_logo.png`} className="icon_logo" />
@@ -82,6 +84,23 @@ const Content = () => {
                     <img src={process.env.PUBLIC_URL + `/assets/youtube.png`} className="icons" />
                     <img src={process.env.PUBLIC_URL + `/assets/instagram.png`} className="icons" />
                 </div>
+            </div>
+            <div className="about">
+                <p>문의</p>
+                <p><a href="tel:010-9609-3868">010-9609-3868</a></p>
+                <p><a href="mailto:headingwarm10@gmail.com">headingwarm10@gmail.com</a></p>
+                <div className="spacing">
+                </div>
+                <span className="desktop">
+                    <h4>사업자명 : 헤딩웜(Heading Warm) | 대표 : 정지윤 | 사업자 등록번호 : 845-08-01863</h4>
+                    <h4>경기도 안산시 상록구 한양대학로 55, 제5공학관 지하 107-7호 창업 4호실(사동, 한양대학교 내)</h4>
+                </span>
+                <span className="mobile">
+                    <h4>사업자명 : 헤딩웜(Heading Warm) | 대표 : 정지윤</h4>
+                    <h4>사업자 등록번호 : 845-08-01863</h4>
+                    <h4>경기도 안산시 상록구 한양대학로 55, </h4>
+                    <h4>제5공학관 지하 107-7호 창업 4호실(사동, 한양대학교 내)</h4>
+                </span>
             </div>
         </div>
     );
