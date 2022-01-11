@@ -19,8 +19,13 @@ body {
   padding-left: 250px;
 }
 
-.home_text_box {
+#home_text_box {
   text-align: left;
+  opacity: 1;
+}
+
+.text-effect {
+  opacity:0;
 }
 
 #home h1 {
