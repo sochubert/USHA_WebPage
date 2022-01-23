@@ -1,3 +1,6 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
 const Content = () => {
     return (
         <div id="Section">
@@ -61,7 +64,9 @@ const Content = () => {
                     <p>방구석 취미를 나의 <span className="red_letter">능력</span>으로, 커뮤니티에서 알려드려요.</p>
                 </div>
                 <div className="button_box">
-                    <button class="category_btn">악세사리</button>
+                    <Link to={"/register"}>
+                        <button class="category_btn">악세사리</button>
+                    </Link>
                     <button class="category_btn">여행</button>
                     <button class="category_btn">영상편집</button>
                 </div>
