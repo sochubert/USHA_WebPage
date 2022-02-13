@@ -1,6 +1,5 @@
 import React from 'react';
-import Content from '../Content';
-import Home from '../Home';
+import {Home, Content} from '../components'
 import '../App.css';
 
 const Main = () => {

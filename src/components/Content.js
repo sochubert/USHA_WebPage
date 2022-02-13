@@ -81,13 +81,21 @@ const Content = () => {
                 <h1>작은 성취가 모여 <b>큰 성공</b>으로</h1>
                 <div className="on_media"><p>더 많은 으샤의 소식을 듣고 싶다면!</p>
                     <img src={process.env.PUBLIC_URL + `/assets/appstore_logo.png`} className="icon_logo" />
-                    <img src={process.env.PUBLIC_URL + `/assets/youtube_logo.png`} className="icon_logo" />
-                    <img src={process.env.PUBLIC_URL + `/assets/instagram_logo.png`} className="icon_logo" />
+                    <a href="https://www.instagram.com/usha.2022_official/">
+                        <img src={process.env.PUBLIC_URL + `/assets/instagram_logo.png`} className="icon_logo" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCfJHKnrDUueNEvYjNdXdkQw">
+                        <img src={process.env.PUBLIC_URL + `/assets/youtube_logo.png`} className="icon_logo" />
+                    </a>
                 </div>
                 <div className="social_icons">
                     <img src={process.env.PUBLIC_URL + `/assets/appstore.png`} className="icons" />
-                    <img src={process.env.PUBLIC_URL + `/assets/youtube.png`} className="icons" />
-                    <img src={process.env.PUBLIC_URL + `/assets/instagram.png`} className="icons" />
+                    <a href="https://www.instagram.com/usha.2022_official/">
+                        <img src={process.env.PUBLIC_URL + `/assets/instagram.png`} className="icons" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCfJHKnrDUueNEvYjNdXdkQw">
+                        <img src={process.env.PUBLIC_URL + `/assets/youtube.png`} className="icons" />
+                    </a>
                 </div>
             </div>
             <div className="about">

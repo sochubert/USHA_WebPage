@@ -5,7 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import {Main, Register} from "./pages"
+import {Admin, Main, Register} from "./pages"
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
