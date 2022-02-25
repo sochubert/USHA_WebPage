@@ -1,7 +1,7 @@
 
 # USHA_WebPage
 Service &amp; Landing Page for USHA
-https://master.d29lfgysvzkgdp.amplifyapp.com/
+https://www.headingwarm.com/
 =======
 # Getting Started with Create React App
 
