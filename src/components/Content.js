@@ -42,19 +42,19 @@ const Content = () => {
                 <p>먼저 성공을 경험한 코치님의 <span className="red_letter">꿀팁</span>을 커뮤니티에서 나눠보아요.</p>
                 <div className="forth_people">
                     <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/sample.jpg`} className="person_img" />
-                        <h4>악세사리 덕후에서 <br />쇼핑몰 사장으로.</h4>
-                        <h3>김철수 님</h3>
+                        <img src={process.env.PUBLIC_URL + `/assets/person_1.jpg`} className="person_img" />
+                        <h4>악세사리 덕후에서<br />쇼핑몰 사장으로.</h4>
+                        <h3>강다교 님</h3>
                     </div>
                     <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/sample.jpg`} className="person_img" />
-                        <h4>악세사리 덕후에서 <br />쇼핑몰 사장으로.</h4>
-                        <h3>김철수 님</h3>
+                        <img src={process.env.PUBLIC_URL + `/assets/person_2.jpg`} className="person_img" />
+                        <h4>여행 덕후에서<br />유튜버로.</h4>
+                        <h3>정지윤 님</h3>
                     </div>
                     <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/sample.jpg`} className="person_img" />
-                        <h4>악세사리 덕후에서 <br />쇼핑몰 사장으로.</h4>
-                        <h3>김철수 님</h3>
+                        <img src={process.env.PUBLIC_URL + `/assets/person_3.jpg`} className="person_img" />
+                        <h4>미드 덕후에서<br />통역가로.</h4>
+                        <h3>이민재 님</h3>
                     </div>
                 </div>
             </div>
@@ -64,9 +64,9 @@ const Content = () => {
                     <p>방구석 취미를 나의 <span className="red_letter">능력</span>으로, 커뮤니티에서 알려드려요.</p>
                 </div>
                 <div className="button_box">
-                    <Link to={"/register"}>
+                    {/* <Link to={"/register"}> */}
                         <button class="category_btn">악세사리</button>
-                    </Link>
+                    {/* </Link> */}
                     <button class="category_btn">여행</button>
                     <button class="category_btn">영상편집</button>
                 </div>
