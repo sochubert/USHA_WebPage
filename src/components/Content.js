@@ -52,7 +52,7 @@ const Content = () => {
                         <h3>정지윤 님</h3>
                     </div>
                     <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/person_2.jpg`} className="person_img" />
+                        <img src={process.env.PUBLIC_URL + `/assets/person_3.jpg`} className="person_img" />
                         <h4>미드 덕후에서<br />통역가로.</h4>
                         <h3>이민재 님</h3>
                     </div>
