@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+.term {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.term h2 {
+  font-size: 16px;
+}
+.term p {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.term_img {
+  width: 500px;
+}
+
 body {
   font-family: 'Nanum Gothic', sans-serif;
   margin: 0;
