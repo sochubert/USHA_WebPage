@@ -80,7 +80,9 @@ const Content = () => {
                 <h1>좋아하는 것을 <b>잘하는 것</b>으로</h1>
                 <h1>작은 성취가 모여 <b>큰 성공</b>으로</h1>
                 <div className="on_media"><p>더 많은 으샤의 소식을 듣고 싶다면!</p>
-                    <img src={process.env.PUBLIC_URL + `/assets/appstore_logo.png`} className="icon_logo" />
+                    <a href="https://apps.apple.com/kr/app/%EC%9C%BC%EC%83%A4-usha/id1612055310">
+                        <img src={process.env.PUBLIC_URL + `/assets/appstore_logo.png`} className="icon_logo" />
+                    </a>
                     <a href="https://www.instagram.com/usha.2022_official/">
                         <img src={process.env.PUBLIC_URL + `/assets/instagram_logo.png`} className="icon_logo" />
                     </a>
