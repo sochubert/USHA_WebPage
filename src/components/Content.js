@@ -91,7 +91,9 @@ const Content = () => {
                     </a>
                 </div>
                 <div className="social_icons">
-                    <img src={process.env.PUBLIC_URL + `/assets/appstore.png`} className="icons" />
+                    <a href="https://apps.apple.com/kr/app/%EC%9C%BC%EC%83%A4-usha/id1612055310">
+                        <img src={process.env.PUBLIC_URL + `/assets/appstore.png`} className="icons" />
+                    </a>
                     <a href="https://www.instagram.com/usha.2022_official/">
                         <img src={process.env.PUBLIC_URL + `/assets/instagram.png`} className="icons" />
                     </a>
