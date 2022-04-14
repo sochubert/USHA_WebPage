@@ -64,16 +64,26 @@ const Content = () => {
                     <p>방구석 취미를 나의 <span className="red_letter">능력</span>으로, 커뮤니티에서 알려드려요.</p>
                 </div>
                 <div className="button_box">
-                    {/* <Link to={"/register"}> */}
+                    <Link to={"/explore"}>
                         <button class="category_btn">악세사리</button>
-                    {/* </Link> */}
-                    <button class="category_btn">여행</button>
-                    <button class="category_btn">영상편집</button>
+                    </Link>
+                    <Link to={"/explore"}>
+                        <button class="category_btn">여행</button>
+                    </Link>
+                    <Link to={"/explore"}>
+                        <button class="category_btn">영상편집</button>
+                    </Link>
                 </div>
                 <div className="button_box">
-                    <button class="category_btn">외국어</button>
-                    <button class="category_btn">디자인</button>
-                    <button class="category_btn">프로그래밍</button>
+                    <Link to={"/explore"}>
+                        <button class="category_btn">외국어</button>
+                    </Link>
+                    <Link to={"/explore"}>
+                        <button class="category_btn">디자인</button>
+                    </Link>
+                    <Link to={"/explore"}>
+                        <button class="category_btn">프로그래밍</button>
+                    </Link>
                 </div>
             </div>
             <div className="sixth">
