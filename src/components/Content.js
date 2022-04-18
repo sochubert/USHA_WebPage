@@ -5,91 +5,75 @@ const Content = () => {
     return (
         <div id="Section">
             <div className="first">
-                <div className="first_left">
-                    <img src={process.env.PUBLIC_URL + `/assets/mimo-1.png`} className="mimo" />
-                    <p className="first_left_first"><span className="big_letter">소소한 성취</span>에 만족하는게</p>
-                    <p className="first_left_second"> 우리의 <span className="red_letter"><b>진짜 행복</b></span>인가요?</p>
-                </div>
-                <div className="first_right">
-                    <p className="first_right_first"><span className="big_letter">좋은 대학, 좋은 기업</span>에 들어가는게</p>
-                    <p className="first_right_second">우리의 <span className="red_letter"><b>진짜 꿈인가요?</b></span></p>
-                    <img src={process.env.PUBLIC_URL + `/assets/mimo-2.png`} className="mimo" />
+                <p className='first_text'>난 뭐해서 먹고 살아야하지?</p>
+                <img src={process.env.PUBLIC_URL + `/assets/1_img.png`} className="first_img" />
+                <div className="first_box">
+                    <p className="first_description">자격증이나 따고 보자 했더니,<br />218만원 낭비...<br /><div className='first_description_sub'>잡코리아, 국내 4년제대학 3~4학년과 올해 졸업예정자 총 798명을 대상<br />'취업사교육 경험'관련 설문조사 진행  결과</div></p>
+                    <img src={process.env.PUBLIC_URL + `/assets/1_receipt.png`} className="first_receipt_img" />
                 </div>
             </div>
-            {/* <div className="second">
-                <div className="second_left">
-                    <img src={process.env.PUBLIC_URL + `/assets/book.png`} className="second_img" />
-                    <p className="second_left_first"><span className="big_letter">전공/전무</span>에</p>
-                    <p className="second_left_second">나를 끼워맞추지 말고</p>
-                </div>
-                <div className="second_right">
-                    <img src={process.env.PUBLIC_URL + `/assets/moji.png`} className="second_img" />
-                    <p className="second_right_first"><span className="big_letter">소확행</span>에</p>
-                    <p className="second_right_second">안주하지 않고</p>
-                </div>
-            </div>
-            <div className="second_comment">
-                    <p>내가 좋아하는 것을 잘하는 것으로 계발하여</p>
-                    <p><span className="red_letter big_letter">나의 가치</span>를 <span className="red_letter big_letter">Upgrade</span> 시키자!</p>
-            </div> */}
             <div className="second">
-                
+                <img src={process.env.PUBLIC_URL + `/assets/2_main.png`} className="second_img" />
+                <p className='second_main_description'>[ 진로 선택 가이드 ]</p>
+                <img src={process.env.PUBLIC_URL + `/assets/2_arrow.png`} className="second_arrow" ></img>
             </div>
             <div className="third">
-                <img src={process.env.PUBLIC_URL + `/assets/logo.png`} className="logo" />
+                <img src={process.env.PUBLIC_URL + `/assets/3_progressbar.png`} className="third_progress_img" />
+                <p className="third_description">STEP1. 취업 vs 창업 정하셨나요?</p>
+                <hr />
+                {/* <img src={process.env.PUBLIC_URL + `/assets/logo.png`} className="logo" />
                 <p><span className="purple big_letter">으샤!</span>는 개개인의 <span className="bolder">관심사를 역량으로</span></p>
-                <p>계발할 수 있는 <span className="red_letter">온/오프라인 커뮤니티</span> 서비스 입니다.</p>
+                <p>계발할 수 있는 <span className="red_letter">온/오프라인 커뮤니티</span> 서비스 입니다.</p> */}
+            </div>
+            <div className="third_sub">
+                <img src={process.env.PUBLIC_URL + `/assets/3_person_1.png`} className="third_sub_person_img" />
+                <p className="third_sub_text">3년 후</p>
+                <img src={process.env.PUBLIC_URL + `/assets/3_person_2.png`} className="third_sub_person_img" />
             </div>
             <div className="forth">
-                <p><span className="thin_letter">STEP 1. </span>나의 <span className="red_letter big_letter">워너비</span>를 만나보세요.</p>
-                <p>먼저 성공을 경험한 코치님의 <span className="red_letter">꿀팁</span>을 커뮤니티에서 나눠보아요.</p>
-                <div className="forth_people">
-                    <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/person_1.jpg`} className="person_img" />
-                        <h4>악세사리 덕후에서<br />쇼핑몰 사장으로.</h4>
-                        <h3>강다교 님</h3>
-                    </div>
-                    <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/person_2.jpg`} className="person_img" />
-                        <h4>여행 덕후에서<br />유튜버로.</h4>
-                        <h3>정지윤 님</h3>
-                    </div>
-                    <div className="person">
-                        <img src={process.env.PUBLIC_URL + `/assets/person.jpg`} className="person_img" />
-                        <h4>미드 덕후에서<br />통역가로.</h4>
-                        <h3>이민재 님</h3>
+                <img src={process.env.PUBLIC_URL + `/assets/4_progressbar.png`} className="forth_progress_img" />
+                <div className='forth_box'>
+                    <img src={process.env.PUBLIC_URL + `/assets/4_result_img.png`} className="forth_result_img" />
+                    <div className='forth_sub_box'>
+                        <p>취업 적합형 or 창업적합형,</p>
+                        <p>나는 어떤 유형인지 궁금하다면?</p>
+                        <img src={process.env.PUBLIC_URL + `/assets/4_speech_img.png`} className="forth_speech_img" />
                     </div>
                 </div>
             </div>
-            <div className="fifth">
-                <div className="fifth_text">
-                    <p><span className="thin_letter">STEP 2. </span>나의 <span className="red_letter big_letter">관심사</span>를 선택해보세요.</p>
-                    <p>방구석 취미를 나의 <span className="red_letter">능력</span>으로, 커뮤니티에서 알려드려요.</p>
+            <div className='fifth'>
+                <img src={process.env.PUBLIC_URL + `/assets/5_progressbar.png`} className="forth_progress_img" />
+                <p>STEP2. 실전 역량 키우기</p>
+                <hr />
+                <div className='fifth_box'>
+                    <img src={process.env.PUBLIC_URL + `/assets/5_book_img.png`} className="fifth_book_img" />
+                    <p>직무/전공에 맞춘<br/>따분한 강의 말고</p>    
                 </div>
-                <div className="button_box">
-                    <Link to={"/explore"}>
-                        <button class="category_btn">악세사리</button>
-                    </Link>
-                    <Link to={"/explore"}>
-                        <button class="category_btn">여행</button>
-                    </Link>
-                    <Link to={"/explore"}>
-                        <button class="category_btn">영상편집</button>
-                    </Link>
+                <img src={process.env.PUBLIC_URL + `/assets/5_main_img.png`} className="fifth_main_img" />
+                <p>'좋아하는 것'을 '잘하는 것'으로 개발하는 커뮤니티!</p>
+                <div className='community_list'>
+                    <img src={process.env.PUBLIC_URL + `/assets/6_carrot.png`} className="community" />
+                    <img src={process.env.PUBLIC_URL + `/assets/6_estate.png`} className="community" />
+                    <img src={process.env.PUBLIC_URL + `/assets/6_smart.png`} className="community" />
                 </div>
-                <div className="button_box">
-                    <Link to={"/explore"}>
-                        <button class="category_btn">외국어</button>
-                    </Link>
-                    <Link to={"/explore"}>
-                        <button class="category_btn">디자인</button>
-                    </Link>
-                    <Link to={"/explore"}>
-                        <button class="category_btn">프로그래밍</button>
-                    </Link>
+                <div className='community_list'>
+                    <img src={process.env.PUBLIC_URL + `/assets/6_coding.png`} className="community" />
+                    <img src={process.env.PUBLIC_URL + `/assets/6_python.png`} className="community" />
+                    <img src={process.env.PUBLIC_URL + `/assets/6_business.png`} className="community" />
                 </div>
             </div>
-            <div className="sixth">
+            <div className='sixth'>
+                <img src={process.env.PUBLIC_URL + `/assets/7_progressbar.png`} className="forth_progress_img" />
+                <p>돈벌면서 나만의 스펙 쌓고 싶다면?</p>
+                <div className='sixth_box'>
+                    <div className='sixth_sub_box'>
+                        <img src={process.env.PUBLIC_URL + `/assets/7_speech.png`} className="sixth_speech_img" />
+                        <p className='sixth_sub_descriprion'>커뮤니티는 소수의 인원을 대상으로 하기에<br />선착순으로 조기 마감될 수 있습니다.</p>
+                    </div>
+                    <img src={process.env.PUBLIC_URL + `/assets/7_application.png`} className="sixth_app_img" />
+                </div>
+            </div>
+            <div className="seventh">
                 <h1>좋아하는 것을 <b>잘하는 것</b>으로</h1>
                 <h1>작은 성취가 모여 <b>큰 성공</b>으로</h1>
                 <div className="on_media"><p>더 많은 으샤의 소식을 듣고 싶다면!</p>
