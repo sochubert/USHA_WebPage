@@ -16,7 +16,7 @@ const Content = () => {
                     <img src={process.env.PUBLIC_URL + `/assets/mimo-2.png`} className="mimo" />
                 </div>
             </div>
-            <div className="second">
+            {/* <div className="second">
                 <div className="second_left">
                     <img src={process.env.PUBLIC_URL + `/assets/book.png`} className="second_img" />
                     <p className="second_left_first"><span className="big_letter">전공/전무</span>에</p>
@@ -31,6 +31,9 @@ const Content = () => {
             <div className="second_comment">
                     <p>내가 좋아하는 것을 잘하는 것으로 계발하여</p>
                     <p><span className="red_letter big_letter">나의 가치</span>를 <span className="red_letter big_letter">Upgrade</span> 시키자!</p>
+            </div> */}
+            <div className="second">
+                
             </div>
             <div className="third">
                 <img src={process.env.PUBLIC_URL + `/assets/logo.png`} className="logo" />
