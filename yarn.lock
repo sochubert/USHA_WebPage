@@ -4068,32 +4068,6 @@ events@^3.2.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-evergreen-ui@^6.9.6:
-  version "6.9.6"
-  resolved "https://registry.yarnpkg.com/evergreen-ui/-/evergreen-ui-6.9.6.tgz#db8f1a90dbe97276f7ba2a9166980b9d855cec5f"
-  integrity sha512-MUBPh2v2KDsABKv0I2LsTcvAVbpyFHyU251fSaXwvakjFMLqspl8Yy53RvbbLKt30uQr2yukeJzhROoqPfoD/w==
-  dependencies:
-    "@babel/runtime" "^7.1.2"
-    "@segment/react-tiny-virtual-list" "^2.2.1"
-    "@types/react" "^16.9.5"
-    "@types/react-transition-group" "^4.4.0"
-    arrify "^1.0.1"
-    classnames "^2.2.6"
-    downshift "^5.2.0"
-    fuzzaldrin-plus "^0.6.0"
-    glamor "^2.20.40"
-    humanize-plus "^1.8.2"
-    lodash.debounce "^4.0.8"
-    lodash.differencewith "^4.5.0"
-    lodash.isempty "^4.4.0"
-    lodash.merge "^4.6.2"
-    lodash.uniqby "^4.7.0"
-    prop-types "^15.6.2"
-    react-fast-compare "^3.2.0"
-    react-transition-group "^4.4.1"
-    tinycolor2 "^1.4.1"
-    ui-box "^5.0.0"
-
 execa@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
