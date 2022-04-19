@@ -5,7 +5,6 @@ import '../App.css';
 const Main = () => {
     return (
         <div className='App'>
-            <Home />
             <Content />
         </div>
     );
