@@ -74,7 +74,7 @@ body {
 }
 
 .first_text {
-  text-align: center;
+  text-align: space;
   font-size: 50px;
 }
 
@@ -89,7 +89,7 @@ body {
 .first_box {
   margin-top: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .first_description {
@@ -208,12 +208,11 @@ p {
 }
 
 .forth_result_img {
-  height: 500px;
+  height: 600px;
 }
 
 .forth_speech_img {
-  margin-left: -100px;
-  height: 200px;
+  height: 250px;
 }
 
 .forth_box {
@@ -316,11 +315,11 @@ p {
 
 .sixth_speech_img {
   margin-top: 150px;
-  height: 200px;
+  height: 250px;
 }
 
 .sixth_app_img {
-  height: 500px;
+  height: 600px;
 }
 
 .sixth_sub_descriprion {
