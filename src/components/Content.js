@@ -41,7 +41,7 @@ const Content = () => {
                     <img src={process.env.PUBLIC_URL + `/assets/4_progressbar.png`} className="forth_progress_img" />
                     <div className='for_font'>
                         <p className='forth_sub_box_description'>취업 적합형 or 창업적합형,</p>
-                        <p><span className='forth_sub_box_text'>나는 어떤 유형인지</span>궁금하다면?</p>
+                        <p><span className='forth_sub_box_text'>나는 어떤 유형인지</span> 궁금하다면?</p>
                     </div>
                     <div className='forth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/4_result_img.png`} className="forth_result_img" />
@@ -77,7 +77,7 @@ const Content = () => {
             <div className='sixth'>
                 <Fade bottom>
                     <img src={process.env.PUBLIC_URL + `/assets/7_progressbar.png`} className="forth_progress_img special" />
-                    <p className='sixth_text'><span className="sixth_big">돈</span>벌면서 <span className="sixth_big">나만의 스펙</span> 쌓고 싶다면?</p>
+                    <p className='sixth_text'><span className="sixth_big">돈</span> 벌면서 <span className="sixth_big">나만의 스펙</span> 쌓고 싶다면?</p>
                     <div className='sixth_box'>
                         <div className='sixth_sub_box'>
                             <img src={process.env.PUBLIC_URL + `/assets/7_speech.png`} className="sixth_speech_img" />
