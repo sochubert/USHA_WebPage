@@ -56,7 +56,7 @@ const Content = () => {
                     <hr />
                     <div className='fifth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/5_book_img.png`} className="fifth_book_img" />
-                        <p>직무/전공에 맞춘<br/>따분한 강의 말고</p>    
+                        <p className='fifth_box_text'>직무/전공에 맞춘<br/>따분한 강의 말고</p>    
                     </div>
                     <img src={process.env.PUBLIC_URL + `/assets/5_main_img.png`} className="fifth_main_img" />
                     <p className='fifth_box_description'><span className="fifth_box_description_highlight">좋아하는 것</span>을 <span className="fifth_box_description_highlight_2">잘하는 것</span>으로 개발하는 커뮤니티!</p>
@@ -74,7 +74,7 @@ const Content = () => {
             </div>
             <div className='sixth'>
                 <Fade bottom>
-                    <img src={process.env.PUBLIC_URL + `/assets/7_progressbar.png`} className="forth_progress_img" />
+                    <img src={process.env.PUBLIC_URL + `/assets/7_progressbar.png`} className="forth_progress_img special" />
                     <p className='sixth_text'><span className="sixth_big">돈</span>벌면서 <span className="sixth_big">나만의 스펙</span> 쌓고 싶다면?</p>
                     <div className='sixth_box'>
                         <div className='sixth_sub_box'>
