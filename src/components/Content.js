@@ -39,11 +39,13 @@ const Content = () => {
             <div className="forth">
                 <Fade bottom>
                     <img src={process.env.PUBLIC_URL + `/assets/4_progressbar.png`} className="forth_progress_img" />
+                    <div className='for_font'>
+                        <p className='forth_sub_box_description'>취업 적합형 or 창업적합형,</p>
+                        <p><span className='forth_sub_box_text'>나는 어떤 유형인지</span>궁금하다면?</p>
+                    </div>
                     <div className='forth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/4_result_img.png`} className="forth_result_img" />
                         <div className='forth_sub_box'>
-                            <p>취업 적합형 or 창업적합형,</p>
-                            <p><span className='forth_sub_box_text'>나는 어떤 유형인지</span>궁금하다면?</p>
                             <img src={process.env.PUBLIC_URL + `/assets/4_speech_img.png`} className="forth_speech_img" />
                         </div>
                     </div>
