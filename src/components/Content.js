@@ -30,19 +30,25 @@ const Content = () => {
                 <hr />
             </div>
             <div className="third_sub">
-                <Fade bottom>
+                <Fade left>
                     <img src={process.env.PUBLIC_URL + `/assets/3_person_1.png`} className="third_sub_person_img" />
+                </Fade>
                     <p className="third_sub_text">3년 후</p>
+                <Fade right>
                     <img src={process.env.PUBLIC_URL + `/assets/3_person_2.png`} className="third_sub_person_img" />
                 </Fade>
             </div>
             <div className="forth">
                 <Fade bottom>
                     <img src={process.env.PUBLIC_URL + `/assets/4_progressbar.png`} className="forth_progress_img" />
+                </Fade>
+                <Fade left>
                     <div className='for_font'>
                         <p className='forth_sub_box_description'>취업 적합형 or 창업적합형,</p>
                         <p><span className='forth_sub_box_text'>나는 어떤 유형인지</span> 궁금하다면?</p>
                     </div>
+                </Fade>
+                <Fade bottom>
                     <div className='forth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/4_result_img.png`} className="forth_result_img" />
                         <div className='forth_sub_box'>
@@ -54,14 +60,22 @@ const Content = () => {
             <div className='fifth'>
                 <Fade bottom>
                     <img src={process.env.PUBLIC_URL + `/assets/5_progressbar.png`} className="forth_progress_img" />
+                </Fade>
+                <Fade left>
                     <p className='fifth_description'>STEP2. <span className='third_description_blue'>실전 역량</span> 키우기</p>
+                </Fade>
                     <hr />
+                <Fade bottom>
                     <div className='fifth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/5_book_img.png`} className="fifth_book_img" />
                         <p className='fifth_box_text'>직무/전공에 맞춘<br/>따분한 강의 말고</p>    
                     </div>
                     <img src={process.env.PUBLIC_URL + `/assets/5_main_img.png`} className="fifth_main_img" />
+                </Fade>
+                <Fade left>
                     <p className='fifth_box_description'><span className="fifth_box_description_highlight">좋아하는 것</span>을 <span className="fifth_box_description_highlight_2">잘하는 것</span>으로 개발하는 커뮤니티!</p>
+                </Fade>
+                <Fade bottom>
                     <div className='community_list'>
                         <img src={process.env.PUBLIC_URL + `/assets/6_carrot.png`} className="community" />
                         <img src={process.env.PUBLIC_URL + `/assets/6_estate.png`} className="community" />
@@ -77,7 +91,11 @@ const Content = () => {
             <div className='sixth'>
                 <Fade bottom>
                     <img src={process.env.PUBLIC_URL + `/assets/7_progressbar.png`} className="forth_progress_img special" />
+                </Fade>
+                <Fade left>
                     <p className='sixth_text'><span className="sixth_big">돈</span> 벌면서 <span className="sixth_big">나만의 스펙</span> 쌓고 싶다면?</p>
+                </Fade>
+                <Fade bottom>
                     <div className='sixth_box'>
                         <div className='sixth_sub_box'>
                             <img src={process.env.PUBLIC_URL + `/assets/7_speech.png`} className="sixth_speech_img" />
