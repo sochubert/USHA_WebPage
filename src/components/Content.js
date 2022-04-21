@@ -52,7 +52,10 @@ const Content = () => {
                     <div className='forth_box'>
                         <img src={process.env.PUBLIC_URL + `/assets/4_result_img.png`} className="forth_result_img" />
                         <div className='forth_sub_box'>
-                            <img src={process.env.PUBLIC_URL + `/assets/4_speech_img.png`} className="forth_speech_img" />
+                            <img src={process.env.PUBLIC_URL + `/assets/bubble_QR1.png`} className="forth_speech_img is_pc" />
+                            <a href="https://pf.kakao.com/_xeqefs/chat">
+                                <img src={process.env.PUBLIC_URL + `/assets/bubble_icon1.png`} className="sixth_speech_img is_mobile" />
+                            </a>
                         </div>
                     </div>
                 </Fade>
@@ -98,7 +101,10 @@ const Content = () => {
                 <Fade bottom>
                     <div className='sixth_box'>
                         <div className='sixth_sub_box'>
-                            <img src={process.env.PUBLIC_URL + `/assets/7_speech.png`} className="sixth_speech_img" />
+                            <img src={process.env.PUBLIC_URL + `/assets/bubble_QR2.png`} className="sixth_speech_img is_pc" />
+                            <a href="https://pf.kakao.com/_xeqefs/chat">
+                                <img src={process.env.PUBLIC_URL + `/assets/bubble_icon2.png`} className="sixth_speech_img is_mobile" />
+                            </a>
                             <p className='sixth_sub_descriprion'>커뮤니티는 소수의 인원을 대상으로 하기에<br />선착순으로 조기 마감될 수 있습니다.</p>
                         </div>
                         <img src={process.env.PUBLIC_URL + `/assets/7_application.png`} className="sixth_app_img" />

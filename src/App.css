@@ -37,6 +37,10 @@
   box-sizing: border-box;
 }
 
+.is_mobile {
+  display: none;
+}
+
 .term {
   margin-left: 20px;
   margin-right: 20px;
@@ -412,6 +416,14 @@ p {
 @media screen and (max-width: 768px) {
   p {
     font-size: 17px;
+  }
+
+  .is_mobile {
+    display: inline;
+  }
+
+  .is_pc {
+    display: none;
   }
   
   .first {
