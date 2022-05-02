@@ -1,0 +1,69 @@
+.main_bg {
+    margin-top: -15px;
+    padding: 400px;
+    padding-top: 175px;
+    padding-bottom: 275px;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+}
+
+.main_bg::before {
+    content: "";
+    background-image: url("../public/assets/main_bg.jpg");
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.main_bg_orange {
+    color: rgba(221, 93, 1, 0.827);
+}
+
+.main_bg h1, p{
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.main_bg h1 {
+    font-size: 60px;
+}
+
+.main_bg_blue {
+    color: blue;
+}
+
+.main_bg p {
+    font-size: 25px;
+    color: rgb(76, 76, 76)
+}
+
+.first_img {
+    width: 500px;
+    height: auto;
+}
+
+.first_text_small {
+    font-size: 60px;
+}
+
+.first_description_small {
+    font-size: 40px;
+}
+
+.first_description {
+    text-align: center;
+    font-size: 60px;
+}
+
+.first_receipt_img {
+    margin-top: 100px;
+}
+
+.first_box {
+    display: inline;
+}
