@@ -29,6 +29,12 @@ function App() {
           <Route path="/introduce">
             <Main />
           </Route>
+          <Route path="/term">
+            <Term />
+          </Route>
+          <Route path="/term2">
+            <Term_2 />
+          </Route>
         </Switch>
       </main>
     </Router>

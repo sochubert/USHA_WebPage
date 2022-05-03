@@ -67,3 +67,8 @@
 .first_box {
     display: inline;
 }
+
+.result_img {
+    width: auto;
+    height: 500px;
+}

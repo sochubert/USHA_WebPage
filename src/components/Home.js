@@ -53,8 +53,8 @@ const Home = () => {
       <div className="second">
         <Fade bottom>
           <img
-            src={process.env.PUBLIC_URL + `/assets/2_main.png`}
-            className="second_img"
+            src={process.env.PUBLIC_URL + `/assets/4_result_img.png`}
+            className="result_img"
           />
           <p className="second_main_description">[ 진로 선택 가이드 ]</p>
           <img
