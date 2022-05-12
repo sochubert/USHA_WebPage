@@ -4,12 +4,13 @@
 
 .main_bg {
     margin-top: -15px;
-    padding: 400px;
+    padding: 300px;
     padding-top: 175px;
     padding-bottom: 275px;
     justify-content: center;
     text-align: left;
     position: relative;
+    height: 100vh;
 }
 
 .main_bg::before {
